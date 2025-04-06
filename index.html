@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="eng-ca">
+  <head>
+    <meta charset="utc-8" name="web" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!-- Google Fonts embed-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <!-- End of Google Fonts embed--->
+    <style>
+      @keyframes rainbowGlowBorder {
+        0%   {border-color: hsl(309, 100%, 57%)}
+        25%  {border-color: yellow}
+        50%  {border-color: rgb(0, 255, 0)}
+        75%  {border-color: blue}
+        100% {border-color: hsl(309, 100%, 57%)}
+      }
+      @keyframes rainbowGlowText {
+        0%   {color: hsl(309, 100%, 57%)}
+        25%  {color: yellow}
+        50%  {color: rgb(0, 255, 0)}
+        75%  {color: blue}
+        100% {color: hsl(309, 100%, 57%)}
+      }
+      body {
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.2vw;
+        padding: 25px;
+        animation-name: rainbowGlowText;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        text-align: center;
+        background-image: url('https://media.tenor.com/XQ9NtRcDxHoAAAAi/gif-girl.gif');
+        background-size: cover;
+        background-color: black;
+      }
+      h1 {
+        font-family: "Londrina Shadow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5vw;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      h2 {
+        font-family: "Londrina Shadow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3vw;
+        line-height: 0px;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: hsl(277, 100%, 57%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      .clickable {
+        padding: 1vw;
+      }
+      .clickable:hover {
+        translate: 0px -10px;
+      }
+      .home{
+         background-color: hsl(309, 100%, 57%); 
+        }
+      .home:hover{
+         background-color: hsl(291, 100%, 88%);
+        }
+      .regal{
+         background-color: rgb(255, 0, 0); 
+        }
+      .regal:hover{
+         background-color: hsl(0, 100%, 74%); 
+        }
+      .chafer{
+         background-color: orange; 
+        }
+      .chafer:hover{
+         background-color: hsl(39, 100%, 73%); 
+        }
+      .fly{
+         background-color: rgb(0, 255, 0); 
+        }
+      .fly:hover{
+         background-color: hsl(120, 100%, 81%); 
+        }
+      .shrimp{
+         background-color: hsl(202, 100%, 54%); 
+        }
+      .shrimp:hover{
+         background-color: hsl(203, 100%, 74%); 
+        }
+      .web{
+         background-color: hsl(277, 100%, 57%); 
+        }
+      .web:hover{
+         background-color: hsl(288, 100%, 78%); 
+        }
+      
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 4.008vw;
+        text-decoration: none;
+      }
+
+      #central {
+        width: 100vw;
+        min-height: 90vw;
+      }
+      #containerMain {
+        position: absolute;
+        left: 16.5%;
+        width: 60vw;
+        margin: 10vw auto 5vw auto;
+        padding: 2.5vw;
+        border: 1vw solid hsl(309, 100%, 57%);
+        background-color: #ffffff;
+        animation-name: rainbowGlowBorder;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="central">
+      <ul>
+        <li><a class="home" href="#home">home</a></li>
+        <li><a class="regal" href= >regal jumper</a></li>
+        <li><a class="chafer" href= >wooly chafer</a></li>
+        <li><a class="fly" href= >bee fly</a></li>
+        <li><a class="shrimp" href= >sulawesi shrimp</a></li>
+        <li><a class="web" href= >THE WEB</a></li>
+      </ul>
+      <div id="containerMain">
+        <h1>
+          WELCOME TO THE WEB
+        </h1>
+        <img src="circle1.png" alt="An image of a Regal Jumping Spider" width="20%" style="max-width:160px;height:auto;" class="clickable">
+        <img src="circle2.png" alt="An image of an African Wooly Chafer" width="20%" style="max-width:160px;height:auto;" class="clickable">
+        <img src="circle3.png" alt="An image of a Japense Bee Fly" width="20%" style="max-width:160px;height:auto;" class="clickable">
+        <img src="circle4.png" alt="An image of a Sulawesi Shrimp" width="20%" style="max-width:160px;height:auto;" class="clickable">
+      </div>
+    </div>
+    
+  </body>
+</html>
